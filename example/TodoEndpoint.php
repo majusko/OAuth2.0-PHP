@@ -20,9 +20,11 @@ $authService = AuthService::getInstance($deviceDao);
 try{
     switch ($method) {
             case 'PUT':
+                $authService->auth();
                 $todoService->addTodo(new Todo());
                 break;
             case 'POST':
+                $authService->auth();
                 $todoService->editTodo(new Todo());
                 break;
             case 'GET':
@@ -30,6 +32,7 @@ try{
                 $todoService->getTodo(1);
                 break;
             case 'DELETE':
+                $authService->auth();
                 $todoService->deleteTodo(1);
                 break;
             default:

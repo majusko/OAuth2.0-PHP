@@ -50,5 +50,6 @@ class AuthCommon {
      * Common messages
      */
     const INVALID_TOKEN_MESSAGE = "Access token is not valid.";
+    const EXPIRED_TOKEN_MESSAGE = "Token is expired.";
 
 }

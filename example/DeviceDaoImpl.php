@@ -24,23 +24,26 @@ class DeviceDaoImpl implements DeviceDaoInt {
 
     public function getDeviceByAccessToken($accessToken)
     {
-        echo 'test';
         // TODO: Implement getDeviceByAccessToken() method.
+        return new Device("testT", time(), "testIID", "testR");
     }
 
     public function getDeviceByRefreshToken($refreshToken)
     {
         // TODO: Implement getDeviceByRefreshToken() method.
+        return new Device("testT", time(), "testIID", "testR");
     }
 
     public function getDeviceByUserId($refreshToken)
     {
         // TODO: Implement getDeviceByUserId() method.
+        return new Device("testT", time(), "testIID", "testR");
     }
 
     public function insert(Device $device)
     {
         // TODO: Implement insert() method.
+        return 1;
     }
 
     public function ubpdate(Device $device)

@@ -23,6 +23,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="TodoEndpoint.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/TodoEndpoint.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="47" selection-start="663" selection-end="663" vertical-scroll-proportion="-8.541667" vertical-offset="140" max-vertical-offset="735">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TodoService.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/TodoService.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -32,19 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TodoEndpoint.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/TodoEndpoint.php">
+      <file leaf-file-name="TokenEndpoint.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/endpoint/TokenEndpoint.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="525" selection-end="525" vertical-scroll-proportion="-7.2916665" vertical-offset="95" max-vertical-offset="690">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestException.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exception/RestException.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="183" selection-end="183" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="795">
+            <state line="12" column="47" selection-start="195" selection-end="195" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
@@ -53,25 +53,7 @@
       <file leaf-file-name="AuthService.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/AuthService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="80" selection-start="1947" selection-end="1947" vertical-scroll-proportion="1.302521" vertical-offset="305" max-vertical-offset="1320">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthCommon.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/const/AuthCommon.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="31" selection-start="1669" selection-end="1690" vertical-scroll-proportion="-20.416666" vertical-offset="275" max-vertical-offset="885">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TokenEndpoint.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/endpoint/TokenEndpoint.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="225">
+            <state line="46" column="101" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.42003515" vertical-offset="451" max-vertical-offset="1995">
               <folding />
             </state>
           </provider>
@@ -80,16 +62,16 @@
       <file leaf-file-name="BaseService.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/BaseService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="207" selection-end="207" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="315">
+            <state line="32" column="0" selection-start="897" selection-end="897" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ErrorHandlerService.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/ErrorHandlerService.php">
+      <file leaf-file-name="AuthCommon.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/const/AuthCommon.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="24" selection-start="2215" selection-end="2215" vertical-scroll-proportion="-19.166666" vertical-offset="560" max-vertical-offset="1155">
+            <state line="52" column="52" selection-start="1775" selection-end="1775" vertical-scroll-proportion="-32.5" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -104,10 +86,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeviceDaoImpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/DeviceDaoImpl.php">
+      <file leaf-file-name="ErrorCode.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/const/ErrorCode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="77" selection-start="362" selection-end="362" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="915">
+            <state line="13" column="34" selection-start="241" selection-end="241" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="270">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorHeader.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/const/ErrorHeader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="10" selection-start="232" selection-end="232" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="270">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthConfig.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AuthConfig.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="16" selection-start="92" selection-end="102" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -140,13 +140,15 @@
         <option value="$PROJECT_DIR$/dto/ErrorDto.php" />
         <option value="$PROJECT_DIR$/dto/TokenDto.php" />
         <option value="$PROJECT_DIR$/const/Common.php" />
-        <option value="$PROJECT_DIR$/example/TodoEndpoint.php" />
-        <option value="$PROJECT_DIR$/service/BaseService.php" />
         <option value="$PROJECT_DIR$/service/ErrorHandlerService.php" />
-        <option value="$PROJECT_DIR$/endpoint/TokenEndpoint.php" />
         <option value="$PROJECT_DIR$/example/TodoService.php" />
-        <option value="$PROJECT_DIR$/example/DeviceDaoImpl.php" />
+        <option value="$PROJECT_DIR$/service/DeviceService.php" />
         <option value="$PROJECT_DIR$/const/AuthCommon.php" />
+        <option value="$PROJECT_DIR$/example/TodoEndpoint.php" />
+        <option value="$PROJECT_DIR$/example/DeviceDaoImpl.php" />
+        <option value="$PROJECT_DIR$/endpoint/TokenEndpoint.php" />
+        <option value="$PROJECT_DIR$/AuthConfig.php" />
+        <option value="$PROJECT_DIR$/service/BaseService.php" />
         <option value="$PROJECT_DIR$/service/AuthService.php" />
       </list>
     </option>
@@ -214,6 +216,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oAuth_2_0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oAuth_2_0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -400,9 +416,126 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/domain/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dto/TokenDto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="162" selection-end="162" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-7.766892" vertical-offset="4598" max-vertical-offset="5190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="335" column="9" selection-start="8283" selection-end="8283" vertical-scroll-proportion="0.7747899" vertical-offset="4564" max-vertical-offset="15300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/ErrorHandlerService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="148" selection-end="650" vertical-scroll-proportion="-4.7916665" vertical-offset="5" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/persistent/DeviceDaoInt.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="36" selection-start="162" selection-end="184" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="420">
+        <state line="15" column="0" selection-start="316" selection-end="316" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Todo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="5" selection-start="192" selection-end="192" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/DeviceService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="44" selection-start="780" selection-end="804" vertical-scroll-proportion="0.64705884" vertical-offset="110" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception/RestException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="183" selection-end="183" vertical-scroll-proportion="-0.625" vertical-offset="150" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dto/ErrorDto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/Device.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="25" selection-start="254" selection-end="312" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="1395">
+          <folding>
+            <element signature="e#6#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/DeviceDaoImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="43" selection-start="1498" selection-end="1498" vertical-scroll-proportion="-34.375" vertical-offset="0" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/TodoEndpoint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="47" selection-start="663" selection-end="663" vertical-scroll-proportion="-8.541667" vertical-offset="140" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/TodoService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="336" selection-end="336" vertical-scroll-proportion="-5.7916665" vertical-offset="71" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endpoint/TokenEndpoint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="47" selection-start="195" selection-end="195" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/const/AuthCommon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="52" selection-start="1775" selection-end="1775" vertical-scroll-proportion="-32.5" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/const/Common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="26" selection-start="186" selection-end="186" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
@@ -421,126 +554,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/User.php">
+    <entry file="file://$PROJECT_DIR$/AuthConfig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/Device.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="-6.25" vertical-offset="60" max-vertical-offset="1395">
-          <folding>
-            <element signature="e#6#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/Todo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="192" selection-end="192" vertical-scroll-proportion="-4.5416665" vertical-offset="116" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dto/TokenDto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="162" selection-end="162" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dto/ErrorDto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exception/RestException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="183" selection-end="183" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-7.766892" vertical-offset="4598" max-vertical-offset="5190">
+        <state line="8" column="16" selection-start="92" selection-end="102" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/BaseService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="207" selection-end="207" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="335" column="9" selection-start="8283" selection-end="8283" vertical-scroll-proportion="0.7747899" vertical-offset="4564" max-vertical-offset="15300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/endpoint/TokenEndpoint.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/DeviceDaoImpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="77" selection-start="362" selection-end="362" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/TodoEndpoint.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="525" selection-end="525" vertical-scroll-proportion="-7.2916665" vertical-offset="95" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/TodoService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="336" selection-end="336" vertical-scroll-proportion="-5.7916665" vertical-offset="71" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/ErrorHandlerService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="24" selection-start="2215" selection-end="2215" vertical-scroll-proportion="-19.166666" vertical-offset="560" max-vertical-offset="1155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/const/Common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="186" selection-end="186" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/const/AuthCommon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="31" selection-start="1669" selection-end="1690" vertical-scroll-proportion="-20.416666" vertical-offset="275" max-vertical-offset="885">
+        <state line="32" column="0" selection-start="897" selection-end="897" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/AuthService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="80" selection-start="1947" selection-end="1947" vertical-scroll-proportion="1.302521" vertical-offset="305" max-vertical-offset="1320">
+        <state line="46" column="101" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.42003515" vertical-offset="451" max-vertical-offset="1995">
           <folding />
         </state>
       </provider>

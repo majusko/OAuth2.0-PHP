@@ -1,15 +1,22 @@
 <?php
 
+require_once("../domain/Device.php");
+
 /**
  * Class AuthService
  * is base service class for whole authorization process.
  */
 class AuthService extends BaseService {
 
+    private $deviceService;
+
     private static $deviceDao;
     private static $instances = array();
-    protected function __construct() {}
-    protected function __clone() {}
+
+    private function __construct() {
+        $this->deviceService = DeviceService::getInstance();
+    }
+    private function __clone() {}
     public function __wakeup(){throw new Exception("Serialized singleton!");}
 
     public static function getInstance(DeviceDaoInt $deviceDaoImpl){
@@ -26,12 +33,52 @@ class AuthService extends BaseService {
 
     }
 
+    /**
+     * Base method for authorization any request to endpoint.
+     * @throws RestException - throws exception if token is expired.
+     */
     public function auth(){
 
         $accessToken = $this->getAuthToken();
         $device = self::$deviceDao->getDeviceByAccessToken($accessToken);
+        $this->deviceService->validateStrictDeviceType($device);
 
+        if($device->getExpireToken() < time()){
+            throw new RestException(AuthCommon::EXPIRED_TOKEN_MESSAGE,ErrorCode::UNAUTHORIZED_ACCESS);
+        }
 
+        //TODO Implementation of user role check solution with 403 HTTP Status response.
+
+    }
+
+    /**
+     * First step validation for requesting new token.
+     */
+    public function firstStepValidation(){
+        $this->checkClientId($_POST[AuthCommon::CLIENT_ID]);
+        $this->checkClientSecret($_POST[AuthCommon::CLIENT_SECRET]);
+    }
+
+    /**
+     * Simple check of client id.
+     * @param $value
+     * @throws RestException
+     */
+    public function checkClientId($value){
+        if($value != AuthConfig::CLIENT_ID){
+            throw new RestException("Client id missing",ErrorCode::UNAUTHORIZED_ACCESS);
+        }
+    }
+
+    /**
+     * Simple check of client secret.
+     * @param $value
+     * @throws RestException
+     */
+    public function checkClientSecret($value){
+        if($value != AuthConfig::CLIENT_SECRET){
+            throw new RestException("Client id missing",ErrorCode::UNAUTHORIZED_ACCESS);
+        }
     }
 
     /**
@@ -40,7 +87,7 @@ class AuthService extends BaseService {
      */
     private function getAuthToken(){
 
-        $headers = getallheaders();
+        $headers = $this->getallheaders();
 
         $this->validateHeaders($headers);
 
@@ -73,11 +120,9 @@ class AuthService extends BaseService {
      * @throws RestException - if token is not valid - Exception will be thrown.
      */
     private function validateAuthToken($accessToken){
-
         if(empty($accessToken) || strlen($accessToken) <= 5){
             throw new RestException(AuthCommon::INVALID_TOKEN_MESSAGE,401);
         }
-
     }
 
 }

@@ -10,6 +10,10 @@ class TokenEndpoint {
 
     public function tokenEndpoints(){
 
+        switch($_POST[AuthCommon::GRAND_TYPE]){
+
+        }
+
     }
 
 } 
