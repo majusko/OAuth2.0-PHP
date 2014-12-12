@@ -2,7 +2,7 @@
 
 /**
  * Class ErrorDto
- * is data transfer object for error message
+ * is data transfer object for error messages.
  */
 class ErrorDto {
 
@@ -15,7 +15,7 @@ class ErrorDto {
     }
 
     /**
-     * @param mixed $code - HTTP status code
+     * @param mixed $code - HTTP status code.
      */
     public function setCode($code)
     {
@@ -23,7 +23,7 @@ class ErrorDto {
     }
 
     /**
-     * @return mixed - HTTP status code
+     * @return mixed - HTTP status code.
      */
     public function getCode()
     {
@@ -31,7 +31,7 @@ class ErrorDto {
     }
 
     /**
-     * @param mixed $message - Explanation message
+     * @param mixed $message - Explanation message.
      */
     public function setMessage($message)
     {
@@ -39,7 +39,7 @@ class ErrorDto {
     }
 
     /**
-     * @return mixed - Explanation message
+     * @return mixed - Explanation message.
      */
     public function getMessage()
     {

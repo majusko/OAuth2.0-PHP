@@ -1,9 +1,9 @@
 <?php
 
-require_once("../service/Service_ErrorHandlerService.php");
+require_once("../service/ErrorHandlerService.php");
 require_once("DeviceDaoImpl.php");
 require_once("TodoService.php");
-require_once("../service/Service_AuthService.php");
+require_once("../service/AuthService.php");
 
 /**
  * This is example endpoint of using oAuth2.0 library
@@ -33,7 +33,7 @@ try{
                 $todoService->deleteTodo(1);
                 break;
             default:
-                throw new RestException("Unknown REQUEST_METHOD", 400);
+                throw new RestException("Unknown request method", 405);
                 break;
     }
 } catch (Exception $e){

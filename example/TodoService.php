@@ -9,7 +9,7 @@ class TodoService {
     private static $instances = array();
     protected function __construct() {}
     protected function __clone() {}
-    public function __wakeup(){throw new Exception("Cannot unserialize singleton");}
+    public function __wakeup(){throw new Exception("Serialized singleton!");}
 
     public static function getInstance()
     {

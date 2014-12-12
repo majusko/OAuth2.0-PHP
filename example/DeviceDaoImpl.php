@@ -1,6 +1,6 @@
 <?php
 
-require_once("../persistent/Persistent_DeviceDaoInt.php");
+require_once("../persistent/DeviceDaoInt.php");
 
 /**
  * Class DeviceDaoImpl
@@ -11,7 +11,7 @@ class DeviceDaoImpl implements DeviceDaoInt {
     private static $instances = array();
     protected function __construct() {}
     protected function __clone() {}
-    public function __wakeup(){throw new Exception("Cannot unserialize singleton");}
+    public function __wakeup(){throw new Exception("Serialized singleton!");}
 
     public static function getInstance() {
         $classes = get_called_class();

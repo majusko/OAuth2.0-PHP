@@ -9,5 +9,6 @@
 class Common {
 
     const JSON_HEADER = "Content-type: application/json";
+    const EMPTY_STRING = "";
 
 } 

@@ -4,7 +4,7 @@
  * Class ErrorHandlerService
  * is service layer class which handle exceptions.
  */
-class ErrorHandlerService {
+class ErrorHandlerService extends BaseService {
 
     private static $instances = array();
     protected function __construct() {}
@@ -13,6 +13,9 @@ class ErrorHandlerService {
         //Cant throw exception in handler.
     }
 
+    /**
+     * @return mixed - Get single instance.
+     */
     public static function getInstance(){
 
         $classes = get_called_class();

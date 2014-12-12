@@ -46,4 +46,9 @@ class AuthCommon {
     const GRAND_TYPE_AUTHORIZATION_CODE = "authorization_code";
     const CODE = "code";
 
+    /**
+     * Common messages
+     */
+    const INVALID_TOKEN_MESSAGE = "Access token is not valid.";
+
 }
