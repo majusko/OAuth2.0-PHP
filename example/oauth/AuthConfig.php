@@ -1,11 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: eglu
- * Date: 12/12/14
- * Time: 22:45
- */
 
+/**
+ * Class AuthConfig
+ * configure your OAuth 2.0 client id and secret id.
+ */
 class AuthConfig {
 
     const CLIENT_ID = "test";

@@ -6,8 +6,8 @@
  */
 class ErrorDto {
 
-    private $code;
-    private $message;
+    public $code;
+    public $message;
 
     function __construct($code, $message) {
         $this->code = $code;

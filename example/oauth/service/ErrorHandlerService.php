@@ -65,8 +65,9 @@ class ErrorHandlerService extends BaseService {
      */
     private function resolveResponse($header, $e){
         header($header, true, $e->getCode());
-        header(JSON_HEADER);
-        echo json_encode(new ErrorDto($e->getCode(), $e->getMessage()));
+        header(Common::JSON_HEADER);
+        $result = new ErrorDto($e->getCode(), $e->getMessage());
+        echo json_encode($result);
     }
 
 } 

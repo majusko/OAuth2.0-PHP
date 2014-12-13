@@ -1,10 +1,9 @@
 <?php
 
-require_once("../persistent/DeviceDaoInt.php");
 
 /**
  * Class DeviceDaoImpl
- * Is example of dao layer class.
+ * implements required device persistent layer for our oauth library.
  */
 class DeviceDaoImpl implements DeviceDaoInt {
 
@@ -22,37 +21,31 @@ class DeviceDaoImpl implements DeviceDaoInt {
         return self::$instances[$classes];
     }
 
-    public function getDeviceByAccessToken($accessToken)
-    {
+    public function getDeviceByAccessToken($accessToken) {
         // TODO: Implement getDeviceByAccessToken() method.
-        return new Device("testT", time(), "testIID", "testR");
+        return new Device("testT", time(), "testIID", "testR", 1);
     }
 
-    public function getDeviceByRefreshToken($refreshToken)
-    {
+    public function getDeviceByRefreshToken($refreshToken){
         // TODO: Implement getDeviceByRefreshToken() method.
-        return new Device("testT", time(), "testIID", "testR");
+        return new Device("testT", time(), "testIID", "testR", 1);
     }
 
-    public function getDeviceByUserId($refreshToken)
-    {
+    public function getDeviceByUserIdAndInstallationId($refreshToken, $installationId){
         // TODO: Implement getDeviceByUserId() method.
-        return new Device("testT", time(), "testIID", "testR");
+        return new Device("testT", time(), "testIID", "testR", 1);
     }
 
-    public function insert(Device $device)
-    {
+    public function insert(Device $device) {
         // TODO: Implement insert() method.
         return 1;
     }
 
-    public function ubpdate(Device $device)
-    {
+    public function update(Device $device) {
         // TODO: Implement ubpdate() method.
     }
 
-    public function delete(Device $device)
-    {
+    public function delete(Device $device) {
         // TODO: Implement delete() method.
     }
 

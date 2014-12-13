@@ -6,8 +6,8 @@
  */
 class RestException extends Exception {
 
-    private $code;
-    private $message;
+    public $code;
+    public $message;
 
     public function __construct($message, $code = 0, Exception $previous = null) {
         parent::__construct($message, $code, $previous);
@@ -22,27 +22,11 @@ class RestException extends Exception {
     }
 
     /**
-     * @return mixed - Error code
-     */
-    public function getCode()
-    {
-        return $this->code;
-    }
-
-    /**
      * @param mixed $message - Error message
      */
     public function setMessage($message)
     {
         $this->message = $message;
-    }
-
-    /**
-     * @return mixed - Error message
-     */
-    public function getMessage()
-    {
-        return $this->message;
     }
 
 } 

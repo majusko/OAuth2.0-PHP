@@ -6,9 +6,9 @@
  */
 class TokenDto {
 
-    private $access_token;
-    private $expires_in;
-    private $refresh_token;
+    public $access_token;
+    public $expires_in;
+    public $refresh_token;
 
     /**
      * @param Device $device - Constructor will convert domain object into data transfer object.

@@ -1,39 +1,46 @@
 <?php
 
-require_once("../service/ErrorHandlerService.php");
-require_once("DeviceDaoImpl.php");
-require_once("TodoService.php");
-require_once("../service/AuthService.php");
+$ROOT = dirname(__FILE__);
+
+require_once($ROOT . "/oauth/OAuthInit.php");
+require_once($ROOT . "/DeviceDaoImpl.php");
+require_once($ROOT . "/UserDaoImpl.php");
 
 /**
  * This is example endpoint of using oAuth2.0 library
  */
 
 $method = $_SERVER['REQUEST_METHOD'];
-$request = explode("/", substr(@$_SERVER['PATH_INFO'], 1));
 
-$errorHandler = ErrorHandlerService::getInstance();
+//implemented instances
 $deviceDao = DeviceDaoImpl::getInstance();
-$todoService = TodoService::getInstance();
-$authService = AuthService::getInstance($deviceDao);
+$userDao = UserDaoImpl::getInstance();
+
+//lib instances
+$authService = AuthService::getInstance($deviceDao,$userDao);
+$errorHandler = ErrorHandlerService::getInstance();
 
 try{
     switch ($method) {
             case 'PUT':
                 $authService->auth();
-                $todoService->addTodo(new Todo());
+                echo "add your record";
+                //TODO add your record
                 break;
             case 'POST':
                 $authService->auth();
-                $todoService->editTodo(new Todo());
+                echo "update your record";
+                //TODO update your record
                 break;
             case 'GET':
                 $authService->auth();
-                $todoService->getTodo(1);
+                echo "get your record";
+                //TODO get your record
                 break;
             case 'DELETE':
                 $authService->auth();
-                $todoService->deleteTodo(1);
+                echo "delete your record";
+                //TODO delete your record
                 break;
             default:
                 throw new RestException("Unknown request method", 405);
@@ -41,4 +48,5 @@ try{
     }
 } catch (Exception $e){
         $errorHandler->handleException($e);
+//    throw $e;
 }

@@ -1,17 +1,16 @@
 <?php
 
+
 /**
- * Class DeviceService
- * is service layer class for Device related logic.
+ * Class UserService
+ * is service layer class for User related logic.
  */
-class DeviceService extends BaseService {
+class UserService {
 
     private static $instances = array();
     protected function __construct() {}
     protected function __clone() {}
-    protected function __wakeup(){
-        //Cant throw exception in handler.
-    }
+    public function __wakeup(){throw new Exception("Serialized singleton!");}
 
     /**
      * @return mixed - Get single instance.
@@ -27,14 +26,14 @@ class DeviceService extends BaseService {
     }
 
     /**
-     * Strict validation of important Device class.
+     * Strict validation of important User class.
      * @param $device
      * @throws RestException
      */
-    public function validateStrictDeviceType($device){
+    public function validateStrictUserType($device){
 
-        if($device instanceof Device){
-            throw new RestException("We need strict Device type for proper work in OAuth2.0 PHP lib.",ErrorCode::INTERNAL_ERROR);
+        if(!$device instanceof User){
+            throw new RestException("We need strict User type for proper work in OAuth2.0 PHP lib.",ErrorCode::INTERNAL_ERROR);
         }
 
     }

@@ -1,24 +1,25 @@
 <?php
-/**
- * Device store access token information
- * User: mario
- * Date: 11/12/14
- * Time: 20:29
- */
 
+/**
+ * Class Device
+ * is domain level class which is needed for authorization process.
+ * Handling token data stored in database.
+ */
 class Device {
 
-    private $accessToken;
-    private $refreshToken;
-    private $expireToken;
-    private $installationId;
+    protected $userId;
+    protected $accessToken;
+    protected $refreshToken;
+    protected $expireToken;
+    protected $installationId;
 
-    function __construct($accessToken, $expireToken, $installationId, $refreshToken)
+    function __construct($accessToken, $expireToken, $installationId, $refreshToken, $userId)
     {
         $this->accessToken = $accessToken;
         $this->expireToken = $expireToken;
         $this->installationId = $installationId;
         $this->refreshToken = $refreshToken;
+        $this->userId = $userId;
     }
 
     /**
@@ -83,6 +84,22 @@ class Device {
     public function getRefreshToken()
     {
         return $this->refreshToken;
+    }
+
+    /**
+     * @param mixed $userId
+     */
+    public function setUserId($userId)
+    {
+        $this->userId = $userId;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getUserId()
+    {
+        return $this->userId;
     }
 
 } 
