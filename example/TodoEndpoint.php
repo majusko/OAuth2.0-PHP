@@ -48,5 +48,4 @@ try{
     }
 } catch (Exception $e){
         $errorHandler->handleException($e);
-//    throw $e;
 }

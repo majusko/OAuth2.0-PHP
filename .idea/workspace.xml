@@ -23,19 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OAuthInit.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/oauth/OAuthInit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="39" selection-start="60" selection-end="60" vertical-scroll-proportion="4.4166665" vertical-offset="181" max-vertical-offset="555">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthService.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AuthService.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/oauth/service/AuthService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="156" column="49" selection-start="5377" selection-end="5377" vertical-scroll-proportion="0.58171743" vertical-offset="2130" max-vertical-offset="3930">
+            <state line="156" column="49" selection-start="5377" selection-end="5377" vertical-scroll-proportion="-8.75" vertical-offset="2130" max-vertical-offset="3930">
               <folding />
             </state>
           </provider>
@@ -86,10 +77,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TodoEndpoint.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TodoEndpoint.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example/TodoEndpoint.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="855">
+            <state line="25" column="16" selection-start="576" selection-end="597" vertical-scroll-proportion="-0.2433155" vertical-offset="466" max-vertical-offset="840">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceDaoImpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/DeviceDaoImpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="43" selection-start="140" selection-end="152" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="855">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoImpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/UserDaoImpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="39" selection-start="133" selection-end="143" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -99,15 +108,6 @@
         <entry file="file://$PROJECT_DIR$/example/TokenEndpoint.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="23" column="34" selection-start="547" selection-end="547" vertical-scroll-proportion="-9.333333" vertical-offset="121" max-vertical-offset="495">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/oauth/service/UserService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.5" vertical-offset="45" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
@@ -165,18 +165,18 @@
         <option value="$PROJECT_DIR$/example/oauth/service/UserService.php" />
         <option value="$PROJECT_DIR$/example/DeviceDaoImpl.php" />
         <option value="$PROJECT_DIR$/example/UserDaoImpl.php" />
-        <option value="$PROJECT_DIR$/example/TodoEndpoint.php" />
         <option value="$PROJECT_DIR$/example/TokenEndpoint.php" />
         <option value="$PROJECT_DIR$/example/oauth/OAuthInit.php" />
         <option value="$PROJECT_DIR$/example/oauth/dto/TokenDto.php" />
         <option value="$PROJECT_DIR$/example/oauth/service/AuthService.php" />
+        <option value="$PROJECT_DIR$/example/TodoEndpoint.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-19" />
-    <option name="y" value="22" />
+    <option name="x" value="24" />
+    <option name="y" value="42" />
     <option name="width" value="1346" />
     <option name="height" value="786" />
   </component>
@@ -239,90 +239,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oAuth_2_0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oAuth_2_0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oauth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oAuth_2_0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oAuth_2_0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oauth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oAuth_2_0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oAuth_2_0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oauth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oAuth_2_0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oAuth_2_0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oauth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -338,6 +254,7 @@
       <recent name="$PROJECT_DIR$/cont" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/example" />
       <recent name="$PROJECT_DIR$/oauth" />
     </key>
@@ -378,7 +295,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-19" y="22" width="1346" height="786" extended-state="0" />
+    <frame x="24" y="42" width="1346" height="786" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -528,20 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/UserDaoImpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/DeviceDaoImpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.3" vertical-offset="0" max-vertical-offset="855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/oauth/enhanced/DateTimeEnhanced.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="27" selection-start="77" selection-end="77" vertical-scroll-proportion="0.16042781" vertical-offset="0" max-vertical-offset="374">
@@ -591,9 +494,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/TodoEndpoint.php">
+    <entry file="file://$PROJECT_DIR$/example/oauth/const/AuthCommon.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="855">
+        <state line="41" column="40" selection-start="1405" selection-end="1418" vertical-scroll-proportion="-3.7083333" vertical-offset="526" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/oauth/service/AuthService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="49" selection-start="5377" selection-end="5377" vertical-scroll-proportion="-8.75" vertical-offset="2130" max-vertical-offset="3930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/DeviceDaoImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="43" selection-start="140" selection-end="152" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/UserDaoImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="39" selection-start="133" selection-end="143" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
@@ -605,16 +529,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/oauth/const/AuthCommon.php">
+    <entry file="file://$PROJECT_DIR$/example/TodoEndpoint.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="40" selection-start="1405" selection-end="1418" vertical-scroll-proportion="-3.7083333" vertical-offset="526" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/oauth/service/AuthService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="49" selection-start="5377" selection-end="5377" vertical-scroll-proportion="0.58171743" vertical-offset="2130" max-vertical-offset="3930">
+        <state line="25" column="16" selection-start="576" selection-end="597" vertical-scroll-proportion="-0.2433155" vertical-offset="466" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
