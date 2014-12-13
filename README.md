@@ -3,6 +3,10 @@ OAuth2.0-PHP
 
 PHP library for OAuth2.0 implementation - beta 1.0
 
+Current example project with included library works without any special setup. You can use included oAuth_2_0.json to test created endpoints with Postman.
+
+PHP version >= 5.3
+
 Installation:
 
 1. Download project
@@ -30,3 +34,4 @@ Installation:
 6. Use auth methode where you need.
 
     $authService->auth();
+    
