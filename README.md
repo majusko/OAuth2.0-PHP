@@ -13,10 +13,11 @@ Installation:
 2. Copy /oauth/ folder into your project and include OAuthInit.php file.
 
     require_once($ROOT . "/oauth/OAuthInit.php");
+3. Edit oauth/const/AuthCommon.php and setup all your key constants (client_id,constants,...)
 
-3. Write implementation of DeviceDaoInt and UserDaoInt.
+4. Write implementation of DeviceDaoInt and UserDaoInt.
 
-4. Setup AuthService and ErrorHandlerService instances
+5. Setup AuthService and ErrorHandlerService instances
 
     $deviceDao = DeviceDaoImpl::getInstance();
     $userDao = UserDaoImpl::getInstance();
@@ -24,14 +25,14 @@ Installation:
     $authService = AuthService::getInstance($deviceDao,$userDao);
     $errorHandler = ErrorHandlerService::getInstance();
 
-5. Use our exception handler for responses
+6. Use our exception handler for responses
     try{
       //ENDPOINT
     } catch (Exception $e){
             $errorHandler->handleException($e);
     }
 
-6. Use auth methode where you need.
+7. Use auth methode where you need.
 
     $authService->auth();
     
