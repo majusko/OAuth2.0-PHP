@@ -24,23 +24,23 @@ try{
     switch ($method) {
             case 'PUT':
                 $authService->auth();
-                echo "add your record";
-                //TODO add your record
+                echo "add your resource";
+                //TODO add your resource
                 break;
             case 'POST':
                 $authService->auth();
-                echo "update your record";
-                //TODO update your record
+                echo "update your resource";
+                //TODO update your resource
                 break;
             case 'GET':
                 $authService->auth();
-                echo "get your record";
-                //TODO get your record
+                echo "get your resource";
+                //TODO get your resource
                 break;
             case 'DELETE':
                 $authService->auth();
-                echo "delete your record";
-                //TODO delete your record
+                echo "delete your resource";
+                //TODO delete your resource
                 break;
             default:
                 throw new RestException("Unknown request method", 405);
