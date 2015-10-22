@@ -13,6 +13,7 @@ class UserDaoImpl implements UserDaoInt {
 
     public static function getInstance() {
         $classes = get_called_class();
+        
         if (!isset(self::$instances[$classes])) {
             self::$instances[$classes] = new static;
         }
