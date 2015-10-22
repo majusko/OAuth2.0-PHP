@@ -9,7 +9,7 @@ PHP version >= 5.3
 
 Installation:
 
-1. Download project
+1. Download/clone project
 2. Copy /oauth/ folder into your project and include OAuthInit.php file.
 
     require_once($ROOT . "/oauth/OAuthInit.php");
